@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/captureButton"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_capture_button"
+    android:contentDescription="@string/capture_button_desc"
+    android:elevation="6dp"
+    android:focusable="true"
+    android:scaleType="centerInside"
+    android:src="@drawable/ic_capture" />

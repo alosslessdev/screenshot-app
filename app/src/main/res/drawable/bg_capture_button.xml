@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ripple clipped to the button's oval outline; concrete colors so the drawable
+     inflates under any theme (services do not inherit the application theme). -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#4DFFFFFF">
+    <item android:drawable="@drawable/circle_shape" />
+</ripple>

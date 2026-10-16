@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3, dark scheme by default regardless of the system night-mode setting. -->
+    <style name="Theme.ScreenshotApp" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/capture_button_stroke</item>
+        <item name="colorOnPrimary">#FF381E72</item>
+        <item name="android:colorBackground">#FF1C1B1F</item>
+        <item name="colorSurface">#FF1C1B1F</item>
+        <item name="colorOnSurface">#FFE6E1E5</item>
+        <item name="colorOnSurfaceVariant">#FFCAC4D0</item>
+        <item name="android:statusBarColor">#FF1C1B1F</item>
+        <item name="android:navigationBarColor">#FF1C1B1F</item>
+        <item name="android:windowBackground">#FF1C1B1F</item>
+    </style>
+</resources>
