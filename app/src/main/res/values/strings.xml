@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screenshot App</string>
+    <string name="capture_button_desc">Take screenshot</string>
+    <string name="accessibility_service_description">Shows a floating button that captures the screen you can see and saves it as a JPEG image. The app does not read screen contents or control your device.</string>
+
+    <string name="status_on">Floating capture button is active</string>
+    <string name="status_off">Accessibility service is off — no floating button</string>
+    <string name="enable_accessibility">Open accessibility settings</string>
+
+    <string name="label_quality">JPEG quality: %1$d</string>
+    <string name="label_button_size">Floating button size: %1$d px</string>
+
+    <string name="label_folder">Save location</string>
+    <string name="default_folder">Pictures/ScreenshotApp (default)</string>
+    <string name="selected_folder">Folder: %1$s</string>
+    <string name="choose_folder">Choose folder…</string>
+    <string name="folder_query_failed">Selected folder</string>
+    <string name="hint_output">Screenshots are saved as .jpg. The default location is Pictures/ScreenshotApp; choose a folder to change it. The setting persists after reboot.</string>
+
+    <string name="err_internal">Screenshot failed (internal error)</string>
+    <string name="err_secure">This screen can’t be captured (secure content)</string>
+    <string name="err_interval">Too soon since the last screenshot, try again</string>
+    <string name="err_display">Screenshot failed (invalid display)</string>
+    <string name="err_access">Screenshot access missing — re-enable the service</string>
+    <string name="err_window">Screenshot failed (invalid window)</string>
+    <string name="err_save">Couldn’t save the screenshot</string>
+</resources>
